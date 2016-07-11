@@ -1,16 +1,3 @@
--- --------------------------------------------------------
--- Host:                         csom-idsdl.oit.umn.edu
--- Server version:               5.6.17-log - MySQL Community Server (GPL)
--- Server OS:                    Win64
--- HeidiSQL Version:             8.3.0.4799
--- --------------------------------------------------------
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-
--- Dumping structure for table twitter_bigdata.hashtags
 DROP TABLE IF EXISTS `hashtags`;
 CREATE TABLE IF NOT EXISTS `hashtags` (
   `tweet_id` bigint(20) unsigned NOT NULL,
@@ -22,7 +9,6 @@ CREATE TABLE IF NOT EXISTS `hashtags` (
 -- Data exporting was unselected.
 
 
--- Dumping structure for table twitter_bigdata.json_cache
 DROP TABLE IF EXISTS `json_cache`;
 CREATE TABLE IF NOT EXISTS `json_cache` (
   `tweet_id` bigint(20) unsigned NOT NULL,
@@ -34,7 +20,6 @@ CREATE TABLE IF NOT EXISTS `json_cache` (
 -- Data exporting was unselected.
 
 
--- Dumping structure for table twitter_bigdata.links
 DROP TABLE IF EXISTS `links`;
 CREATE TABLE IF NOT EXISTS `links` (
   `tweet_id` bigint(20) unsigned NOT NULL,
@@ -47,7 +32,6 @@ CREATE TABLE IF NOT EXISTS `links` (
 -- Data exporting was unselected.
 
 
--- Dumping structure for table twitter_bigdata.mentions
 DROP TABLE IF EXISTS `mentions`;
 CREATE TABLE IF NOT EXISTS `mentions` (
   `tweet_id` bigint(20) unsigned NOT NULL,
@@ -62,7 +46,6 @@ CREATE TABLE IF NOT EXISTS `mentions` (
 -- Data exporting was unselected.
 
 
--- Dumping structure for table twitter_bigdata.tweets
 DROP TABLE IF EXISTS `tweets`;
 CREATE TABLE IF NOT EXISTS `tweets` (
   `tweet_id` bigint(20) unsigned NOT NULL,
@@ -88,7 +71,6 @@ CREATE TABLE IF NOT EXISTS `tweets` (
 -- Data exporting was unselected.
 
 
--- Dumping structure for table twitter_bigdata.users
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `user_id` bigint(20) unsigned NOT NULL DEFAULT '0',
@@ -113,7 +95,6 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Data exporting was unselected.
 
 
--- Dumping structure for table twitter_bigdata.user_list
 DROP TABLE IF EXISTS `user_list`;
 CREATE TABLE IF NOT EXISTS `user_list` (
   `user_id` bigint(20) unsigned NOT NULL DEFAULT '0',
@@ -123,6 +104,3 @@ CREATE TABLE IF NOT EXISTS `user_list` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
-/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
