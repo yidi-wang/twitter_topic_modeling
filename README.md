@@ -8,7 +8,7 @@ This project identifies different topics from the recent twitter feed.
 This project uses the following software and Python libraries:
 
 - [Python 2.7](https://www.python.org/download/releases/2.7/)
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
+- [pyodbc](https://mkleehammer.github.io/pyodbc/)
+- [tweepy](http://tweepy.readthedocs.io/en/v3.5.0/)
+- [json](https://docs.python.org/2/library/json.html/)
 - [matplotlib](http://matplotlib.org/)
