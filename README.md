@@ -1,9 +1,11 @@
-# Project Overview
+# Identifying Topics in Tweets
+
+## Project Overview
 
 This project identifies different topics from the recent twitter feed.
 
 
-# Software Requirements
+## Software Requirements
 
 This project uses the following software and Python libraries:
 
