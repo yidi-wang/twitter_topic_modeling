@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project identifies different topics from the recent twitter feed.
+Twitter_Topic_Modeling streams tweets from Twitter based on hashtags or keywords, and perform ETL tasks to store relevant information in SQL Server. It also applied NLP algorithms to process raw text and implements latent Dirichlet allocation (LDA) to identify potential topics.
 
 
 ## Software Requirements
