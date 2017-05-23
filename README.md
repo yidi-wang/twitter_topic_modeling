@@ -17,3 +17,5 @@ This project uses the following software and Python libraries:
 - [itertools](https://docs.python.org/2/library/itertools.html)
 - [re](https://docs.python.org/2/library/re.html)
 - [pyLDAvis](https://pyldavis.readthedocs.io/en/latest/)
+
+You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
