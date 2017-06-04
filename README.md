@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Twitter_Topic_Modeling streams tweets from Twitter based on hashtags or keywords, and perform ETL tasks to store relevant information in SQL Server. It also applies NLP algorithms to process raw text and implements the latent Dirichlet allocation (LDA) algorithm to identify potential topics.
+Twitter_Topic_Modeling streams tweets from Twitter based on hashtags or keywords, and perform ETL tasks to store relevant information in SQL Server. It also applies Natural Language Processing algorithms to process raw text and implements the latent Dirichlet allocation (LDA) algorithm to identify potential topics.
 
 
 ## Install
@@ -27,7 +27,7 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 `twitter_streaming.ipynb` provides sample code for streaming 5000 tweets with the hashtag "#PokemonGO".
 
-`topic_modeling.ipynb` allows you to conduct basic Natural Language Processing tasks to clean the tweets, and identify the topics.
+`topic_modeling.ipynb` allows you to conduct NLP tasks to clean the tweets, and identify the topics.
 
 ## Run
 
