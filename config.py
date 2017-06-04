@@ -3,7 +3,7 @@
 """
 
 #config twitter API credential here
-#config twitter API credential here
+
 consumer_key = ''
 consumer_secret = ''
 oauth_token = ''
