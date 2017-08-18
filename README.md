@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Twitter_Topic_Modeling streams tweets from Twitter based on hashtags or keywords, and perform ETL tasks to store relevant information in SQL Server. It also applies Natural Language Processing algorithms to process raw text and implements the latent Dirichlet allocation (LDA) algorithm to identify potential topics.
+This project allows you to stream tweets based on hashtags or keywords, and perform ETL tasks to store relevant information in Microsoft SQL Server. You can then apply natural language processing algorithms to process plain text data, and implement the latent Dirichlet allocation (LDA) algorithm to identify potential topics.
 
 
 ## Install
@@ -23,7 +23,7 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ## Code
 
-`CreateDatabase` folder contains the SQL scripts that create the tables for storing relevant information of each tweet in Microsoft SQL Server.  You need to create the tables first, then follow this [documentation](https://github.com/mkleehammer/pyodbc/wiki) to connect Python to SQL Server. 
+`create_database` folder contains the SQL scripts that create the tables for storing relevant information of each tweet in Microsoft SQL Server.  You need to create the tables first, then follow this [documentation](https://github.com/mkleehammer/pyodbc/wiki) to connect Python to SQL Server. 
 
 `twitter_streaming.ipynb` provides sample code for streaming 5000 tweets with the hashtag "#PokemonGO".
 
@@ -31,7 +31,7 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ## Run
 
-In a terminal or command window, navigate to the top-level project directory `Twitter_Topic_Modeling/` (that contains this README), configure the `config.py` file, and run one of the following commands to stream tweets:
+In a terminal or command window, navigate to the top-level project directory `twitter-topic-modeling/` (that contains this README), configure the `config.py` file, and run one of the following commands to stream tweets:
 
 ```bash
 ipython notebook twitter_streaming.ipynb
