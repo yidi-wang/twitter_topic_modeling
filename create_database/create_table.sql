@@ -1,9 +1,9 @@
-drop table mentions;
-drop table hashtags;
-drop table tweets;
-drop table users;
+DROP TABLE IF EXISTS mentions;
+DROP TABLE IF EXISTS hashtags;
+DROP TABLE IF EXISTS tweets;
+DROP TABLE IF EXISTS users;
 
-create table tweets
+CREATE TABLE tweets
 (
  [tweet_id] [bigint] NOT NULL,
  [tweet_text] [nvarchar](255) NULL,
@@ -27,7 +27,7 @@ create table tweets
 
 Go
 
-create table users
+CREATE TABLE users
 (
  [user_id] [bigint] NOT NULL,
  [period] [date] NOT NULL,
@@ -53,7 +53,7 @@ create table users
 
 GO
 
-create table mentions
+CREATE TABLE mentions
 (
  [tweet_id] [bigint] NOT NULL,
  [source_user_id] [bigint] NULL,
@@ -68,7 +68,7 @@ create table mentions
 
 GO
 
-create table hashtags
+CREATE TABLE hashtags
 (
  [tweet_id] [bigint] NOT NULL,
  [text] [nvarchar](255) NOT NULL,
