@@ -31,7 +31,7 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ## Run
 
-In a terminal or command window, navigate to the top-level project directory `twitter-topic-modeling/` (that contains this README), configure the `config.py` file, and run one of the following commands to stream tweets:
+In a terminal or command window, navigate to the top-level project directory `twitter_topic_modeling/` (that contains this README), configure the `config.py` file, and run one of the following commands to stream tweets:
 
 ```bash
 ipython notebook twitter_streaming.ipynb
